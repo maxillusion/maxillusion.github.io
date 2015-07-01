@@ -1,9 +1,7 @@
 ---
 layout: article
 title: L'hébergement
-modified:
-categories: 
-excerpt:
+categories: Articles
 tags: []
 image:
   feature: posts/hebergement/host-featured.jpg

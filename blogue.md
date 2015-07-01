@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /
-title: "Dernies projets"
+title: "Dernies articles"
+permalink: /blogue/
 ---
 
 <div class="tiles">
