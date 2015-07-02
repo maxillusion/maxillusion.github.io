@@ -159,6 +159,9 @@
 	}
 	@at-root {
 		.page-content {
+			p {
+				text-align: justify;
+			}
 			@include fill-parent;
 			// larger font for intro paragraph
 			> p {
