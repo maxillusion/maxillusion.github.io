@@ -117,7 +117,13 @@
 	@include clearfix;
 	font-weight: 700;
 	a {
-		color: lighten($black,60);
+		box-shadow: none;
+		border-bottom: none;
+		color: $black;
+		&:hover {
+			box-shadow:none;
+			border-bottom:none;
+		}
 	}
 }
 
@@ -342,9 +348,9 @@
   /* Copyright text */
 	.copyright {
 		@include font-size(12);
-		color: lighten($black,60);
+		color: $black;
 		a {
-			color: lighten($black,60);
+			color: $black;
 			text-decoration: none;
 		}
 	}

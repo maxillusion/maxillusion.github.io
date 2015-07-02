@@ -7,10 +7,17 @@
   margin-top: $gutter;
   @include font-size(10,no);
   a {
+    color:$black;
+    box-shadow: none;
+    border-bottom: none;
     display: inline-block;
     font-family: $alt-font;
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
+    &:hover {
+      box-shadow:none;
+      border-bottom:none;
+    }
   }
 }

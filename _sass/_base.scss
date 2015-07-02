@@ -56,9 +56,14 @@ ins {
 /* Links */
 
 a {
+	border-bottom: 1px solid $link-color;
+ 	box-shadow: inset 0 -2px $link-color;
 	color: $link-color;
+	text-decoration: none;
+	@include transition(all 4s ease-in-out);
 	&:hover {
-		color: darken($link-color, 20);
+		box-shadow: inset 0 -100px 0 $link-color;
+		@include transition(all 0.8s ease-in-out);
 	}
 	&:focus {
 		@extend %tab-focus;
@@ -66,6 +71,13 @@ a {
 	&:hover,
 	&:active {
 		outline: 0;
+	}
+}
+.site-title{
+	border-bottom:none;
+	box-shadow:none;
+	&:hover {
+		box-shadow: none;
 	}
 }
 
@@ -393,4 +405,8 @@ nav {
 
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight {
 	@include transition (color 0.2s ease-out, opacity 0.2s ease-out, background 0.2s ease-out, border-color 0.2s ease-out);
+}
+
+.coeur {
+	color:$red;
 }

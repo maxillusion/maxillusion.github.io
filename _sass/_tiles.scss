@@ -1,45 +1,65 @@
 /* ==========================================================================
    Tiles
    ========================================================================== */
-
-.tile {
-  @include outer-container;
-  margin-bottom: $gutter;
-  @include media($micro) {
-    @include fill-parent;
-  }
-  @include media(new-breakpoint(min-width em(480) 12)) {
-    @include span-columns(3);
-    @include omega(4n);
-  }
-  .entry-date {
-    @include font-size(16,no);
-    color: lighten($text-color,25);
-  }
-  .post-title {
-    @include font-size(18,no);
-  }
-  .post-excerpt {
-    @include font-size(16);
-  }
-  .post-teaser {
-    position: relative;
-    display: block;
-    &:after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      background: rgba($base-color,0);
-      pointer-events: none;
-      @include transition(background 0.3s);
+.caption-style-4{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    li{
+      float: left;
+      padding: 0px;
+      position: relative;
+      overflow: hidden;
+      width:352px;
+      margin:5px;
     }
-    &:hover {
-      &:after {
-        background: rgba($base-color,0.2);
+    li:hover .caption{
+      opacity: 1;
+    }
+    li:hover img{
+      opacity: 1;
+      transform: scale(1.15,1.15);
+      -webkit-transform:scale(1.15,1.15);
+      -moz-transform:scale(1.15,1.15);
+      -ms-transform:scale(1.15,1.15);
+      -o-transform:scale(1.15,1.15);
+    }
+    img{
+      margin: 0px;
+      padding: 0px;
+      float: left;
+      z-index: 4;
+    }
+    .caption{
+      cursor: pointer;
+      position: absolute;
+      opacity: 0;
+      @include transition(all 0.45s ease-in-out);;
+    }
+    img{
+      @include transition(all 0.25s ease-in-out);
+    }
+    .blur{
+      background-color: rgba(0,0,0,0.65);
+      height: 300px;
+      width: 352px;
+      z-index: 5;
+      position: absolute;
+    }
+    .caption-text h2 {
+      text-transform: uppercase;
+      font-size: 24px;
+      a {
+        color:#fff;
       }
     }
+    .caption-text{
+      z-index: 10;
+      color: #fff;
+      position: absolute;
+      width: 352px;
+      height: 300px;
+      text-align: center;
+      top:70px;
+    }
   }
-}

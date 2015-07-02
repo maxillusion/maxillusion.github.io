@@ -6,10 +6,10 @@
    Typography variables
    ========================================================================== */
 
-$base-font                   	: "source-serif-pro", serif;
-$heading-font                	: "source-sans-pro", sans-serif;
+$base-font                   	: 'Source Serif Pro', serif;
+$heading-font                	: 'Source Sans Pro', sans-serif;
 $caption-font                	: $base-font;
-$code-font                   	: "source-code-pro", monospace;
+$code-font                   	: 'Source Code Pro', monospace;
 $alt-font                    	: $heading-font;
 
 $doc-font-size               	: 16;
@@ -32,13 +32,14 @@ $caption-color                : mix($white, $text-color, 25%);
 $base-color                  	: #343434;
 $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
-$link-color                  	: #222;
+$link-color                  	: #7EB200;
 
 $primary-color               	: $black;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
 $info-color                  	: #3498db;
+$red                          : #D60515;
 
 $table-border-color          	: $border-color;
 $table-border                	: 1px solid $table-border-color;

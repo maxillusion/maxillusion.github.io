@@ -114,6 +114,12 @@
    ========================================================================== */
 
 .btn-social {
+		box-shadow:none;
+		border-bottom:none;
+		&:hover {
+			box-shadow:none;
+			border-bottom:none;
+		}
 	$social:
     (facebook, $facebook-color),
 		(flickr, $flickr-color),

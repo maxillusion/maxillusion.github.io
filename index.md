@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "Dernies projets"
+title: "Derniers projets"
 ---
 
 <div class="tiles">
