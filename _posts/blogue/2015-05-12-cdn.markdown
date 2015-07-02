@@ -1,0 +1,51 @@
+---
+layout: article
+title: Les CDN
+categories: blogue
+comments: true
+tags: []
+image:
+  feature: posts/cdn/cdn-featured.jpg
+  teaser: posts/cdn/cdn-teaser.jpg
+  thumb:
+date: 2015-05-12
+---
+
+Tout le monde aime quand un site Web est rapide. Rien de pire que d’attendre après un serveur qui n’en finit plus de charger une page. Il existe des façons de compenser, en partie, pour un serveur un peu moins performant. Le réseau de diffusion de contenu ou «content Delievery Network (CDN)» en est une. Le réseau de diffusion de contenu est un système servant à améliorer la performance d’un site web, et ce, de plusieurs façons. Je vais tenter d’expliquer les utilités et les avantages de ce système.
+
+## Qu’est-ce que c’est un «CDN»?
+
+Un réseau de diffusion de contenu est un réseau de plusieurs centres de données dispersé un peu partout dans le monde. Ils servent à réduire la distance entre l’utilisateur du site Web et le serveur de celui-ci. Par exemple, un site Web dont le serveur est basé à New York qui accueille des utilisateurs en Europe bénéficiera du serveur du «CDN» basé en Europe pour les desservir. Les serveurs du «CDN» contiennent les fichiers lourds du site Web. On parle ici de photos, vidéos. fichiers audio, etc. Donc, quand l’utilisateur européen se connecte sur le site basé aux États-Unis, il ira télécharger ses fichiers lourds sur un serveur basé en Europe.
+
+## Quels sont les avantages du «CDN» ?
+
+Le réseau permet de réduire la distance entre l’utilisateur et le serveur de données du site Web, donc, du même coup réduit considérablement le temps de téléchargement du site. De plus, lorsqu’il est bien configuré, le «CDN» permet un téléchargement en parallèle des différentes ressources du site Internet. Les éléments du site seront ainsi téléchargés en simultanés au lieu d’être téléchargés en file, comme un site du type classique.
+
+### Exemple :
+
+les feuilles de style seraient téléchargées via l’adresse cdn1.maxillusion.ca, le JavaScript de l’entête, entre les balises `<head> </head>` via cdn2.maxillusion.ca, le JavaScript après la balise `<body>` passerait par cdn3.maxillusion.ca et le JavaScript juste avant la balise `</body>` serait téléchargé via le cdn4.maxillusion.ca. Les images, quant à elle, elles seraient téléchargées parallèlement via les 4 adresses du cdn.
+
+Un autre des grands avantages du «CDN» est qu’il permet de diminuer la charge sur le serveur principal du site en faisant télécharger les éléments lourds par d’autres serveurs. La charge en bande passante et en ressources du serveur est donc diminuée.
+
+## Qui offre les services de «CDN» ?
+
+Différents fournisseurs de services existent, ils offrent généralement tous un gain de performance pour votre site. Le choix du fournisseur dépend surtout de vos besoins et de votre budget. Voici quelques fournisseurs :
+
+### Cloudflare
+
+Sans doute un des plus connus dans le marché des «CDN», il offre un service gratuit qui comprend un tas d’options pour l’optimisation de votre site Web. En plus d’aider votre site à se charger plus rapidement, il le protège contre les attaques. Si vous voulez des options plus professionnelles, ils ont aussi des plans démarrant à 20$/mois pour le premier site et 5$ pour les autres.
+[CloudFlare](https://www.cloudflare.com){:target="_blank"}
+
+### Incapsula
+
+Un service semblable à Cloudflare, il permettra d’optimiser votre site Web tout en le protégeant contre les attaques.
+[Incapsula](https://www.incapsula.com){:target="_blank"}
+
+### MaxCDN
+
+Il est différent des deux premiers dans son fonctionnement mais est non moins efficace dans la livraison des fichiers. Il permet de livrer le contenu du site Web de partout dans le monde en paramétrant des sous-domaines qui feront augmenter le nombre de connections en parallèle que votre navigateur peut gérer. Les ressources sont donc téléchargées en parallèles d’un serveur près de chez vous.
+[MaxCDN](https://www.maxcdn.com){:target="_blank"}
+
+## Conclusion
+
+Si vous voulez donner un petit coup d’accélérateur à votre site, le CDN est une super option. Il est bien évident que, comme pour l’hébergement, ce n’est pas toutes les options qui vous conviendraient. Il faut d’abord évaluer nos besoins en bande passante et en volume de données avant de faire son choix.

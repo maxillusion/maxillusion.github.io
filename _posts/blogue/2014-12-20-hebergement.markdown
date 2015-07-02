@@ -1,13 +1,14 @@
 ---
 layout: article
 title: L'hébergement
-categories: Articles
+categories: blogue
+comments: true
 tags: []
 image:
   feature: posts/hebergement/host-featured.jpg
   teaser: posts/hebergement/host-teaser.jpg
   thumb:
-date: 2015-06-30T19:12:59-04:00
+date: 2014-12-20
 ---
 
 Choisir un hébergeur peut sembler simple : nombreux sont ceux qui se contentent de l’option la moins coûteuse. Si payer moins peut paraître une bonne idée dans certains cas, dans le contexte de l’hébergement Web, ce ne l’est pas toujours. Plusieurs facteurs influencent la prise de décision. Je tenterai de démystifier et démêler le tout pour clarifier certains concepts.
