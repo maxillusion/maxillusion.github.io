@@ -10,9 +10,17 @@
       padding: 0px;
       position: relative;
       overflow: hidden;
-      width:352px;
-      height:352px;
-      margin:5px;
+      width:100%;
+      max-height: 352px;
+      margin-right:10px; 
+      
+      @include media($small) {
+	      width: 45%;
+      }
+      @include media($medium) {
+        width:32%;
+
+      }
     }
     li:hover .caption{
       opacity: 1;

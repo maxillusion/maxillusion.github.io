@@ -13,6 +13,8 @@ date: 2015-01-30
 
 L’objectif de ce site était de moderniser et de corriger les défaillances de l’ancien site en faisant une refonte du thème de base du blogue sur la bière. Il fallait garder une apparence semblable à l’ancienne, mais en simplifiant la gestion de celui-ci. On peut ainsi tout gérer les widgets du site sans avoir à aller dans les fichiers source du code et sans avoir à aller programmer ce que l’ont veut voir. Il est donc plus facile et rapide à administrer. Il fallait aussi effectuer un changement de serveur afin d’avoir une structure simplifiée et plus légère basée sur la performance. Nous avons ainsi réduit le temps de chargement en passant de 3 secondes de chargement à moins de 1 seconde.
 
+[Visiter le site](http://www.cabrasse.ca){:target="_blank"}
+
 ![Accueil du site]({{ site.url }}/images/portfolio/cabrasse-1.jpg "ÇaBrasse.ca")
 
 ![Affichage des articles']({{ site.url }}/images/portfolio/cabrasse-2.jpg "ÇaBrasse.ca")
