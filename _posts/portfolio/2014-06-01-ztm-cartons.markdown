@@ -11,6 +11,6 @@ image:
 date: 2014-06-01
 ---
 
-Ce mandat avait pour but de créer des certificats-cadeaux format carte professionnelle. Ayant bien établi l'identité visuelle, j'ai pu facilement créer le certificat-cadeau. Lors de l’impression, j’ai fait ajouter du vernis UV sur les bandes de couleur pour accentuer le contraste avec le carton blanc.
+Ce mandat avait pour but de créer des certificats-cadeaux format carte professionnelle. Ayant bien établi l’identité visuelle, j’ai pu facilement créer le certificat-cadeau. Lors de l’impression, j’ai fait ajouter du vernis UV sur les bandes de couleur pour accentuer le contraste avec le carton blanc.
 
 ![Zéro Tension Massage]({{ site.url }}/images/portfolio/ztm_cartes-1.jpg "Zéro Tension Massgae")
