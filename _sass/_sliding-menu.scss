@@ -98,7 +98,7 @@
       @include media($small) {
         @include font-size(48,no,1);
       }
-      font-family: $base-font;
+      font-family: $heading-font;
       text-transform: uppercase;
       font-weight: 400;
     }
@@ -147,12 +147,12 @@
     .title {
       display: block;
       margin-left: 60px;
-      font-family: $base-font;
-      @include font-size(60,no);
+      font-family: $heading-font;
+      @include font-size(40,no);
       font-weight: 700;
-      @include media($small) {
+      @include media($medium) {
         margin-left: 170px;
-        @include font-size(32,no);
+        @include font-size(60,no);
       }
     }
     .excerpt {
