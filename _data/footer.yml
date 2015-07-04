@@ -1,10 +1,13 @@
 # Footer navigation links
 
-- title: Portfolio
+- title: Facebook
   url: /
 
-- title: Blogue
+- title: Twitter
   url: /blogue/
 
-- title: À propos
+- title: Behance
+  url: /a-propos/
+  
+- title: LinkedIn
   url: /a-propos/
