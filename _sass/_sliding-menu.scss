@@ -148,7 +148,7 @@
       display: block;
       margin-left: 60px;
       font-family: $heading-font;
-      @include font-size(20,no);
+      @include font-size(30,no);
       font-weight: 700;
       @include media($medium) {
         margin-left: 170px;
