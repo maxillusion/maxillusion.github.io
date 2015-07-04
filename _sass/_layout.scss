@@ -52,10 +52,10 @@
 			position: relative;
 			display: block;
 			margin-right: $gutter;
-			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
-			height: $masthead-height;
-			font-family: $alt-font;
-			&:before,
+			
+			
+			font-family: $base-font;
+			/*&:before,
 			&:after {
 				content: '';
 				display: block;
@@ -76,7 +76,7 @@
 			&:active:after,
 			&:hover:after {
 				width: 100%;
-			}
+			}*/
 		}
 	}
 }
@@ -117,12 +117,10 @@
 	@include clearfix;
 	font-weight: 700;
 	a {
-		box-shadow: none;
-		border-bottom: none;
+		
 		color: $black;
 		&:hover {
-			box-shadow:none;
-			border-bottom:none;
+			
 		}
 	}
 }
@@ -137,6 +135,7 @@
 	@include size(100% 100%);
 	-webkit-overflow-scrolling: touch;
 	z-index: 2;
+	margin-top: 100px;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
 	&.slide {
