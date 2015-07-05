@@ -1,5 +1,5 @@
 ---
 layout: contact
-title: "Me contacter"
-permalink: /me-contacter/
+title: "Me joindre"
+permalink: /me-joindre/
 ---
