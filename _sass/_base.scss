@@ -56,24 +56,23 @@ ins {
 /* Links */
 
 a {
-	@include transition(all 0.8s ease-in-out);
 	border-bottom: 1px solid $link-color;
  	box-shadow: inset 0 -2px $link-color;
 	color: $black;
 	text-decoration: none;
+    @include transition(all 0.8s);
 	&:hover {
 		box-shadow: inset 0 -100px 0 $link-color;
 		@include transition(all 0.8s ease-in-out);
 	}
 	&:focus {
 		@extend %tab-focus;
-		@include transition(all 0.8s ease-in-out);
 	}
 	&:hover,
 	&:active {
 		outline: 0;
-		@include transition(all 0.8s ease-in-out);
 	}
+    @include transition(all 0.8s ease-in-out);
 }
 .site-title{
 	border-bottom:none;
@@ -405,7 +404,7 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight {
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, tr, td, .highlight {
 	@include transition (color 0.2s ease-out, opacity 0.2s ease-out, background 0.2s ease-out, border-color 0.2s ease-out);
 }
 
