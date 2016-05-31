@@ -1,16 +1,11 @@
-<footer role="contentinfo" id="site-footer">
-	<nav role="navigation" class="menu bottom-menu">
-		<ul class="menu-item">
-		{% for link in site.data.footer %}
-      {% if link.url contains 'http' %}
-        {% assign domain = '' %}
-        {% else %}
-        {% assign domain = site.url %}
-      {% endif %}
-			<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-		{% endfor %}
-		</ul>
-	</nav><!-- /.bottom-menu -->
-	<p class "copyright"></p>
-	<p class="copyright">Fabriqué avec <span class="coeur">♥</span> à Montréal · Fièrement propulsé par <a href="http://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a> + <a href="http://github.com" target="_blank" rel="nofollow">Github</a>.<br />&#169; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+<!-- footer start -->
+
+<footer class="site-footer">
+  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
+    <div class="inner">
+         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+         <section class="poweredby">Fait par <a href="https://www.maxillusion.ca"> MaxIllusion</a></section>
+    </div>
 </footer>
+
+<!-- footer end -->
