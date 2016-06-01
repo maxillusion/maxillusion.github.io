@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "C'est un départ!"
+title:  "C’est un départ!"
 date:   2016-05-25
 image: /assets/article_images/2016-05-25-cest-un-depart/souliers.jpg
 ---
-BBonjour, je me nomme Maxime et j’ai créé ce blogue afin de pouvoir partager ma route vers mon objectif : être en meilleure forme. Bien sûr, il est exclu et irréaliste pour moi de revenir à la forme que j’avais à l’époque où je faisais du sport de haut niveau. L’idée ici est plutôt de perdre le gras en trop et de me mettre en forme. Il est évident que comme ancien athlète, je refuse de seulement devenir en santé; je veux être en forme. À travers cette aventure, je testerai des applications et gadgets à ma disposition afin de les évaluer et de conclure si, oui ou non, ils en valent la peine.
+Bonjour, je me nomme Maxime et j’ai créé ce blogue afin de pouvoir partager ma route vers mon objectif : être en meilleure forme. Bien sûr, il est exclu et irréaliste pour moi de revenir à la forme que j’avais à l’époque où je faisais du sport de haut niveau. L’idée ici est plutôt de perdre le gras en trop et de me mettre en forme. Il est évident que comme ancien athlète, je refuse de seulement devenir en santé; je veux être en forme. À travers cette aventure, je testerai des applications et gadgets à ma disposition afin de les évaluer et de conclure si, oui ou non, ils en valent la peine.
 
 ## Semaine 1
 
